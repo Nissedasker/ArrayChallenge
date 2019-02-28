@@ -16,8 +16,8 @@ public class BuggySolution implements ArrayMethods {
         short temp1;
         short temp2;
         for (short c = 0; c < arraySize; c++) {
-            short index1 = getRandomNumber(0, result.length);
-            short index2 = getRandomNumber(0, result.length);
+            short index1 = getRandomNumber(0, result.length - 1);
+            short index2 = getRandomNumber(0, result.length - 1);
 
             temp1 = result[index1];
             temp2 = result[index2];
@@ -60,7 +60,7 @@ public class BuggySolution implements ArrayMethods {
 
     private short getRandomNumber(int low, int high) {
         Random r = new Random();
-        int result = r.nextInt(high-low) + low;
+        int result = r.nextInt(high + 1 -low) + low;
         return (short) result;
     }
 
