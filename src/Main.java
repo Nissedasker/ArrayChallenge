@@ -22,17 +22,6 @@ public class Main {
         System.out.println(String.format("Sum: %d", sum));
 
     }
-
-    static void printArray(short[] arrayToBePrshorted) {
-        System.out.print("Array:[ ");
-        for (short number : arrayToBePrshorted) {
-            System.out.print(number);
-            System.out.print(' ');
-        }
-        System.out.println("]");
-        System.out.println();
-    }
-
 }
 
 
