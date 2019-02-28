@@ -15,6 +15,7 @@ public class BuggySolution implements ArrayMethods {
         // Jumble the array
         short temp1;
         short temp2;
+        // Swap numbers randomly in the array.
         for (short c = 0; c < arraySize; c++) {
             short index1 = getRandomNumber(0, result.length - 1);
             short index2 = getRandomNumber(0, result.length - 1);
