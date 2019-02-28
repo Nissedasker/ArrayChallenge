@@ -3,7 +3,7 @@ import Arrays.Solution;
 
 public class Main {
     public static void main(String args[]) {
-        // Create the 'Solution' class first...
+        // Create the 'Solution' class first..
         ArrayMethods solution = new Solution();
 
         // Create the array.
