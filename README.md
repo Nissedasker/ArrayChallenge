@@ -2,7 +2,7 @@
 This is a 2-part challenge in Array manipulation.
 
 Part 1
-1. Check out Master and write a class that implements the functions defined in the 'ArrayMethods' interface.
+1. Check out the 'Master' branch, write a class that implements the functions defined in the 'Array Methods' interface.
 2. The Main method should first instantiate the array-manipulating object.
 3. Create a jumbled array and print the sum of its elements.
 4. Sort the jumbled array and print the sum of its elements to verify we get the same number.
